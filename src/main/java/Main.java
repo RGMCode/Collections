@@ -1,5 +1,7 @@
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class Main {
 
@@ -12,9 +14,15 @@ public class Main {
         mutzi.setName("Mutzi");
         mutzi.setType("Cat");
 
+        Set<Pet> myPets = new HashSet<>();
+        myPets.add(wuffi);
+        myPets.add(mutzi);
+
+        /*
         List<Pet> myPets = new ArrayList<>();
         myPets.add(wuffi);
         myPets.add(mutzi);
+        */
 
         Pet tweety = new Pet();
         tweety.setName("Tweety");
