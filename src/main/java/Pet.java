@@ -46,4 +46,5 @@ public class Pet {
         result = 31 * result + (type != null ? type.hashCode() : 0);
         return result;
     }
+
 }
